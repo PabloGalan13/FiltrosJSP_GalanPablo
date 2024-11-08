@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/661/885/desktop-wallpaper-nature-pokemon-and-mobile-backgrounds-pokemon-landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: white; 
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.navbar li:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    color: #333;
+}
+
+thead th {
+    background-color: #0073e6;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #e9f5ff;
+}
+
+tr td[colspan="6"] {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}

@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 7 nov. 2024, 00:01:54
+    Author     : galan
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/661/885/desktop-wallpaper-nature-pokemon-and-mobile-backgrounds-pokemon-landscape.jpg); /* URL de la imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+.container {
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4CAF50; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor */
+    transition: box-shadow 0.3s ease; /* Transición de sombra */
+}
+
+.center-text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.checkbox-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}

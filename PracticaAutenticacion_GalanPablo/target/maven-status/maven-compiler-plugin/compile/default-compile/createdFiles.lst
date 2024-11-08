@@ -1,0 +1,4 @@
+filtros\FiltroAutenticacion.class
+servlets\Login.class
+servlets\RegistrarPokemon.class
+entidad\Pokemon.class
